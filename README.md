@@ -13,6 +13,9 @@
 2025/1/16 版本2 `logoversion2.m`
 使用**Krita**软件的工具，确定出了用来近似logo的7段贝塞尔曲线（控制点），
 很明显，效果好了非常多。
+
 所有的控制点记录在对应程序中，图片*logoversion2control*中表示出了全部的控制点。
+
 **值得一提**，正是在之前的视频[The Continuity of Splines](https://www.youtube.com/watch?v=jvPPXbo87ds)
 中，我知道了钢笔工具中 *handle* （端点处的线）的含义，就是给出另外两个辅助控制点的位置！！
+此次的程序实现完美的验证了这一点，也即钢笔工具的原理。
